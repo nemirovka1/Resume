@@ -224,3 +224,40 @@ body{
   .sidebar-list li{
       color:#247470;
   }
+  @media screen and (max-width: 500px){
+      .sidebar {
+          width: 270px;
+          background-color: #1b5257;
+      }
+      .img {
+          margin-top: 0px;
+      }
+      .sidebar-contacts{
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 1.71;
+          color: #FFFFFF;
+      }
+      .sidebar-contacts a{
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 1.71;
+          color: #FFFFFF;
+      }
+      .sidebar-contanier{
+          margin-left: 10px;
+          margin-bottom: 30px;
+      }
+      .about_yourself{
+          max-width: 350px;
+      }
+      .person-information{
+          width:100%;
+      }
+      .main-content{
+          padding-left: 20px;
+      }
+      .projects-list {
+          width: 300px;
+      }
+  }
